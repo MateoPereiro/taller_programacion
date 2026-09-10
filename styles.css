@@ -1,4 +1,3 @@
-/* Estilo página PROGRAMACIÓN */
 
 body {
     background-color: #fafafa;
@@ -11,7 +10,6 @@ h1 {
     color: #006105;
 }
 
-/* Lista de ejercicios */
 ul {
     margin-left: 50px;
     margin-top: 20px;
@@ -21,7 +19,6 @@ ul li {
     margin-bottom: 10px;
 }
 
-/* Enlaces */
 ul li a {
     color: #006105;
     font-size: 18px;
