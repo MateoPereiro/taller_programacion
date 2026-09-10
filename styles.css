@@ -10,48 +10,27 @@ h1 {
     color: #006105;
 }
 
-ul {
-    margin-left: 50px;
-    margin-top: 20px;
+li {
+    list-style: none;
+    margin: 10px;
 }
 
-ul li {
-    margin-bottom: 10px;
+li a {
+    display: block;
+    width: 300px;
+    padding: 12px;
+    background-color: rgb(91, 168, 20);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+li a:hover {
+    background-color: darkgreen;
 }
 
 ul li a {
-    color: #006105;
+    color: #000000;
     font-size: 18px;
     text-decoration: none;
-}
-
-ul li a:hover {
-    text-decoration: underline;
-}
-
-.button {
-    display: flex;
-    list-style: none;
-    gap: 10px;
-    margin: 0;
-    padding: 0;
-}
-
-.button li a {
-    background: #006105;
-    color: #FFF;
-    border: none;
-    padding: 0.8rem 1.5rem;
-    font-size: 1rem;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    transition: background 0.2s, transform 0.2s;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-}
-
-.button li a:hover {
-    background: #004d04;
-    transform: translateY(-3px);
 }
